@@ -39,3 +39,18 @@ INSERT INTO contactform (name, email, phoneNumber, message) VALUES
 	('Sadie Bailey', 'sociv@ta.sl', '2698189137', 'certain away powerful slight add hall door once process frequently balloon outline hollow greatly congress after bridge room round food dozen roof swept applied'),
 	('Jeremy Pittman', 'vupcurom@hilzeasa.ls', '9267972540', 'type village metal mile goes mountain log frighten planning war more sure lamp chest weather face turn result official hardly arrangement journey who brain'),
 	('saf', 'sdf@gam.c', '1234', '12315');
+go
+create procedure sp_InsContact
+	@name varchar(64),
+	@email varchar(64),
+	@phone varchar(16),
+	@message varchar(1024)
+as
+
+	insert into contactform
+	(name, email, phoneNumber, message)
+	values
+	(@name, @email, @phone, @message)
+go
+
+grant execute on sp_InsContact to diskUserRT;
