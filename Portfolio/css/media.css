@@ -1,0 +1,444 @@
+/***************************************************************
+ *															   *
+ *							Media Queries					   *
+ *															   *
+ ***************************************************************/
+
+
+@media only screen and (min-width: 620px)
+{
+	#work_experience p
+	{
+		font-size: 1.5em;
+		line-height: 1em;
+	}
+
+	#work_experience .dates
+	{
+		font-size: 1.1em;
+	}
+}
+
+@media only screen and (min-width: 520px)
+{
+	#work_experience .dates
+	{
+		margin-top: -0.8em;
+	}
+}
+
+@media only screen and (max-width: 1100px)
+{
+	nav li
+	{
+		margin: 4%;
+	}
+}
+
+@media only screen and (max-width: 1000px)
+{
+	nav li
+	{
+		margin: 3%;
+	}
+}
+
+@media only screen and (max-width: 900px)
+{
+	nav li
+	{
+		margin: 2%;
+	}
+}
+
+@media only screen and (max-width: 800px)
+{
+	nav li
+	{
+		margin: 1%;
+		font-size: 22px;
+	}
+
+	iframe
+	{
+		width:90%;
+		height:auto;
+	}
+}
+
+@media only screen and (max-width: 710px)
+{
+
+	nav ul
+	{
+		display: flex;
+	}
+
+	nav li
+	{
+		margin: auto;
+		width: auto;
+		display: contents;
+		font-size: inherit;
+	}
+
+	nav .box
+	{
+		padding: 1.5em;
+		border-width: 1.6px;
+	}
+
+	.shadow
+	{
+		margin-top: 20px;
+	}
+}
+
+
+@media only screen and (max-width: 660px)
+{
+	#linked, #git
+	{
+		display: none;
+	}
+
+	nav
+	{
+		margin-right: 1%;
+	}
+
+	h2
+	{
+		font-size: 2.5em;
+	}
+
+	th
+	{
+		font-size: 1.1em;
+	}
+
+	td
+	{
+		font-size: 0.9em;
+	}
+}
+
+@media only screen and (max-width: 550px)
+{
+	h2
+	{
+		font-size: 2.0em;
+	}
+}
+
+@media only screen and (max-width: 480px)
+{
+
+	.box p
+	{
+		font-size: 0.9em;
+	}
+
+	h2
+	{
+		font-size: 1.8em;
+	}
+
+	#PlaceHolder
+	{
+		width: 150px;
+		height: 150px;
+	}
+
+	#PlaceHolder img
+	{
+		margin: 0.5px;
+		width: 98%;
+		height: 98%;
+	}
+
+
+	nav .box
+	{
+		padding: 1em;
+	}
+
+	th
+	{
+		font-size: 1em;
+	}
+
+	td
+	{
+		font-size: 0.9em;
+	}
+
+	#contact_me
+	{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 410px)
+{
+	h2
+	{
+		font-size: 1.6em;
+		margin-bottom: .2em;
+		margin-top: .4em;
+	}
+
+
+	#PlaceHolder
+	{
+		width: 120px;
+		height: 120px;
+	}
+
+	th
+	{
+		font-size: 16px;
+	}
+
+	td
+	{
+		font-size: 12px;
+	}
+
+	.shadow
+	{
+		max-width: 99%;
+	}
+
+	.shadow .box
+	{
+		margin: auto;
+		text-align: center
+	}
+
+	.Card
+	{
+		max-width: 98%;
+	}
+
+	nav li
+	{
+		font-size: 0.75em;
+	}
+}
+
+@media only screen and (max-width: 300px)
+{
+	#PlaceHolder
+	{
+		width: 100px;
+		height: 100px;
+	}
+
+	th
+	{
+		font-size: 13px;
+	}
+
+	td
+	{
+		font-size: 11px;
+	}
+
+	nav ul
+	{
+		-ms-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+	nav .box
+	{
+		width: initial;
+		max-width: 60%;
+		min-width: 30%;
+	}
+
+	#li_1, #li_3
+	{
+		margin-right: 0;
+	}
+
+	#li_2, #li_4
+	{
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 220px)
+{
+	th
+	{
+		font-size: 12px;
+	}
+
+	td
+	{
+		font-size: 11px;
+	}
+
+	.box
+	{
+		display: flex;
+		padding: 0.5em;
+		margin-top: 2%;
+	}
+
+	.Card:last-of-type
+	{
+		margin-top: 10%;
+	}
+
+	/*selectors with most precision override generic element selectors. even if it's earlier.*/
+
+	#PlaceHolder + h2
+	{
+		font-size: 20px;
+		margin-bottom: .2em;
+		margin-top: .4em;
+	}
+
+	h2
+	{
+		font-size: 20px;
+		margin-bottom: .2em;
+		margin-top: .4em;
+	}
+
+	#PlaceHolder
+	{
+		width: 80px;
+		height: 80px;
+	}
+
+	#PlaceHolder img
+	{
+		margin: 0.5px;
+		width: 98%;
+		height: 98%;
+	}
+
+	.box p
+	{
+		font-size: 11px;
+	}
+
+
+
+	#work_experience p
+	{
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: contents;
+	}
+
+	#work_experience
+	{
+		line-height: 14px;
+	}
+
+	#work_experience p
+	{
+		font-size: 13px;
+	}
+
+	#work_experience .dates
+	{
+		font-size: 10px;
+	}
+
+	.dates + br
+	{
+		margin-bottom: 8px;
+	}
+
+	#footer a
+	{
+		font-size: 10px;
+		overflow: hidden;
+		white-space: nowrap;
+		display: contents;
+		margin: auto
+	}
+
+	.footer_large
+	{
+		font-size: 12px;
+		overflow: hidden;
+		white-space: nowrap;
+		display: contents;
+		margin: auto;
+	}
+
+	#footer img
+	{
+		display: none;
+	}
+
+	#footer .newline
+	{
+		display: initial;
+		margin: auto;
+	}
+
+	.center_text
+	{
+		margin: auto;
+	}
+}
+
+@media only screen and (max-width: 210px)
+{
+	#li_4, #li_3
+	{
+		display: none;
+	}
+
+	#li_1, #li_2
+	{
+		margin: auto;
+		width: 80%;
+		max-width: none;
+		display: block;
+	}
+
+	tr > td:nth-of-type(3)
+	{
+		display: none;
+	}
+
+	tr > th:nth-of-type(3)
+	{
+		display: none;
+	}
+
+	.box p
+	{
+		line-height: 1em;
+	}
+
+	tr td, tr th
+	{
+		line-height: 1em;
+	}
+
+	tr td
+	{
+		font-size: 9px;
+	}
+
+	tr th
+	{
+		font-size: 10px;
+	}
+
+	h2
+	{
+		font-size: 16px;
+	}
+}

@@ -1,0 +1,74 @@
+/*
+	Author: Scott Thomas
+	Date:	12/4/18
+	Personal Portfolio
+*/
+
+#PlaceHolder {
+	margin: auto;
+	text-align: center;
+	background-color: white;
+	max-height: 256px;
+	max-width: 256px;
+	border-radius: 100%;
+	width: 177px;
+	height:177px;
+}
+
+#PlaceHolder img {
+	margin-top: 1px;
+	border-radius: 100%;
+	height:auto;
+	width:175px;
+	max-height: 256px;
+	max-width:256px;
+}
+
+
+#PlaceHolder + h2 {
+	padding: 0;
+	margin:0;
+}
+
+
+
+table {
+	font-family: Roboto;
+	margin: auto;
+	font-size: 1.5em;
+	border-radius: 15px;
+	width:100%;
+}
+
+td {
+	color: aliceblue;
+	font-size: 24px;
+	font-weight: 400;
+	padding-top: 0.8em;
+	padding-bottom:0.8em;
+	text-align: center;
+
+}
+
+th {
+	color: aliceblue;
+	font-size:36px;
+	font-weight: 900;
+	text-align: center;
+	padding-top:.5em;
+}
+
+tr {
+	width:auto;
+}
+
+.box .dates {
+	font-size: 1em;
+}
+
+.box p {
+	font-size:1.2em;
+	line-height:2em;
+	text-align:center;
+}
+
